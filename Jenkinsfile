@@ -6,6 +6,7 @@ pipeline{
             steps{
                sh'javac Test.java'
          }
+         }
          stage("run"){
             steps{
                   sh"java Test"
